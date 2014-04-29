@@ -21,6 +21,7 @@
 		30BAB40219100AF90056D763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAB3E419100AF90056D763 /* UIKit.framework */; };
 		30BAB40A19100AF90056D763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30BAB40819100AF90056D763 /* InfoPlist.strings */; };
 		30BAB40C19100AF90056D763 /* slimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAB40B19100AF90056D763 /* slimeTests.m */; };
+		30BAB41719100B1F0056D763 /* slimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BAB41619100B1F0056D763 /* slimeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		30BAB40719100AF90056D763 /* slimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slimeTests-Info.plist"; sourceTree = "<group>"; };
 		30BAB40919100AF90056D763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30BAB40B19100AF90056D763 /* slimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slimeTests.m; sourceTree = "<group>"; };
+		30BAB41519100B1F0056D763 /* slimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slimeModel.h; sourceTree = "<group>"; };
+		30BAB41619100B1F0056D763 /* slimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = slimeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		30BAB3E619100AF90056D763 /* slime */ = {
 			isa = PBXGroup;
 			children = (
+				30BAB41519100B1F0056D763 /* slimeModel.h */,
+				30BAB41619100B1F0056D763 /* slimeModel.m */,
 				30BAB3EF19100AF90056D763 /* AppDelegate.h */,
 				30BAB3F019100AF90056D763 /* AppDelegate.m */,
 				30BAB3F219100AF90056D763 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				30BAB3F719100AF90056D763 /* ViewController.m in Sources */,
 				30BAB3F119100AF90056D763 /* AppDelegate.m in Sources */,
+				30BAB41719100B1F0056D763 /* slimeModel.m in Sources */,
 				30BAB3ED19100AF90056D763 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
